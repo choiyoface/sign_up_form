@@ -1,16 +1,22 @@
 
 body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
     align-items: center;
     font-family:"quicksand";
+
 }
-img{
-    width: 400px;
-    height: stretch;
-    overflow: hidden;
+.imageBox {
     position: relative;
-    flex-grow: .5;
+    text-align: center;
+    color: white;
+  }
+  img{
+    width: 60vh;
+    height: 100vh;
     opacity: 90%;
     
 }
@@ -20,25 +26,36 @@ img{
     width: auto;
     height: 100px;
 }
+
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
-    
+    justify-content: space-between; 
     
 }
-
+span{
+    font-weight: bold;
+}
 .text{
     padding: 10px;
+    margin: 50px 30px 0px 30px;
     font-size: 25px;
+    
 }
-form{
+#myform{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+.inputBox{
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgb(206, 221, 205);
     font-size: 20px;
+    box-shadow: 3px 3px 5px rgb(112, 101, 101);
+    padding: 5px;
+    margin: 0px 50px;
+    gap: 30px;
     
 }
 .contentOne{
@@ -49,6 +66,19 @@ form{
     display: flex;
     flex-direction: column;
 }
+#button{
+    width: 160px;
+    height: 30px;
+    background-color: rgb(161, 193, 159);
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 15px;
+    box-shadow: 3px 3px 5px rgb(112, 101, 101);
+}
+#button:hover{
+    opacity: 50%;
+}
 
 
 
@@ -57,6 +87,7 @@ input {
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 5px;
+    width: 35vh;
   }
   input:hover{
     border-color: green;
@@ -67,12 +98,4 @@ input {
     font-size: 13px;
 }
   
-  button{
-    width: 220px;
-    height: 30px;
-    background-color: rgb(161, 193, 159);
-    border: none;
-    border-radius: 5px;
-    margin: 20px;
-  }
-  
+ 

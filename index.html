@@ -8,18 +8,20 @@
     <title>Sign up Form</title>
 </head>
 <body>
-    <div style="position: relative; z-index: 1;">
+    <div clss="imageBox">
         <img src="backgorund_img.jpg" alt="background image">
-        <span class="logo" style="position: absolute; top: 8rem; z-index: 3;"> </span>
+        <div class="logo" > 🌼</div>
         
     </div>
      <div class="content">
         <div class="text"> 
-            <span>Quick sign up</span>
-            <p>It only takes 1 min for sign up! Just for 1 min, you will get infinte access to our website</p>
+            <span>🌼Quick sign up🌼</span>
+            <p>It only takes 1 min for sign up! Just for 1 min, you will get infinte access to our website.</p>
+           
+            <p>Get Started Right Here👇</p>
         </div>
         <form id="myform">
-            
+            <div class="inputBox">
             <div class="contentOne">
             
             <lable for="fname">First Name</lable>
@@ -39,15 +41,19 @@
             <input type="text" id="lname" name="lname" required>  
 
             <lable for="phoneNumber">Phone number</lable>
-            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="xxx-xxx-xxx" required>
             
             
             <lable for="confirmPassword">Confirm password</lable>
             <input type="password" id="confirmPassword" name="confirmPassword">
-           <div id="error"></div>
+            <div id="error"></div>
+            </div>
+            </div>
+            <div class="buttonBox">
+              <input type="submit" id="button" value="Create Account">      
             </div>
 
-           <input type="submit">
+        
         </form> 
         
 

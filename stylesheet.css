@@ -7,6 +7,7 @@ body{
 }
 img{
     width: 400px;
+    height: stretch;
     overflow: hidden;
     position: relative;
     flex-grow: .5;
@@ -60,10 +61,11 @@ input {
   input:hover{
     border-color: green;
   }
-  input:focus{
-    border-color: green;
-  }
-
+ 
+#error{
+    color: red;
+    font-size: 13px;
+}
   
   button{
     width: 220px;

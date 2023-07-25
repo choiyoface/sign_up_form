@@ -18,7 +18,7 @@
             <span>Quick sign up</span>
             <p>It only takes 1 min for sign up! Just for 1 min, you will get infinte access to our website</p>
         </div>
-        <form>
+        <form id="myform">
             
             <div class="contentOne">
             
@@ -42,19 +42,22 @@
             <input type="tel" id="phoneNumber" name="phoneNumber" required>
             
             
-            <lable for="passwordConfirm">Confirm password</lable>
-            <input type="password" id="passwordConfirm" name="passwordConfirm">
+            <lable for="confirmPassword">Confirm password</lable>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+           <div id="error"></div>
             </div>
-           
-        </form>
+
+           <input type="submit">
+        </form> 
         
-        <button class="createAcount">Create Account</button>
+
+        
     </div>
         
     
     
 
-
+<script src="javascript.js"></script>
 </body>
 
 </html>

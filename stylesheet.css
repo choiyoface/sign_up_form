@@ -12,19 +12,28 @@ body{
 .imageBox {
     position: relative;
     text-align: center;
-    color: white;
+    
   }
   img{
     width: 60vh;
     height: 100vh;
     opacity: 90%;
+    vertical-align: bottom;
     
 }
 .logo{
     background-color: rgb(128, 157, 128);
-    opacity: 50%;
-    width: auto;
-    height: 100px;
+    font-size: 50px;
+    font-family: "borel";
+    opacity: 80%;
+    width: 60vh;
+    position: absolute;
+    top: 181px;
+    left: 0px;
+    text-align: center;
+    
+    
+
 }
 
 .content{
@@ -72,9 +81,10 @@ span{
     background-color: rgb(161, 193, 159);
     border: none;
     border-radius: 5px;
-    margin: 20px;
+    margin: 50px;
     font-size: 15px;
     box-shadow: 3px 3px 5px rgb(112, 101, 101);
+    
 }
 #button:hover{
     opacity: 50%;

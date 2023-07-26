@@ -7,11 +7,13 @@ body{
     height: 100vh;
     align-items: center;
     font-family:"quicksand";
+    object-fit: contain;
 
 }
 .imageBox {
-    position: relative;
+    position: absolute;
     text-align: center;
+    flex:.5vh;
     
   }
   img{
@@ -20,13 +22,16 @@ body{
     opacity: 90%;
     vertical-align: bottom;
     
+   
+    
 }
 .logo{
     background-color: rgb(128, 157, 128);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "borel";
     opacity: 80%;
     width: 60vh;
+    height: 8vh;
     position: absolute;
     top: 181px;
     left: 0px;
